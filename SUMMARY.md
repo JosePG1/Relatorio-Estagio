@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Relatório](README.md)
+* [Relatório de Estágio 2022](README.md)
+* [Prefacio](<README (1).md>)
   * [Agradecimentos](prefacio/agradecimentos.md)
   * [Resumo](prefacio/resumo.md)
   * [Abstract](prefacio/abstract.md)
@@ -31,7 +32,7 @@
   * [Conclusões](conclusoes/conclusoes.md)
   * [Trabalho Futuro](conclusoes/trabalho-futuro.md)
 * [Referências](referencias.md)
-* [Anexos](anexos.md)
-* [Lista de Software e Hardware usado](lista-de-software-e-hardware-usado.md)
-* [Código Produzido](codigo-produzido.md)
-* [Manual de instalaçāo](manual-de-instalacao.md)
+* [Anexos](anexos/README.md)
+  * [Lista de Software e Hardware usado](anexos/lista-de-software-e-hardware-usado.md)
+  * [Código Produzido](anexos/codigo-produzido.md)
+  * [Manual de instalaçāo](anexos/manual-de-instalacao.md)
