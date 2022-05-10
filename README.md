@@ -20,5 +20,5 @@ Orientador na ESTG: Prof. Paula Rego
 
 Data:
 
-Repositório git: git@github.com:JosePG1/relatorio-estagio-2022.git
+Repositório git: [git@github.com:JosePG1/relatorio-estagio-2022.git](https://github.com/JosePG1/relatorio-estagio-2022)
 
