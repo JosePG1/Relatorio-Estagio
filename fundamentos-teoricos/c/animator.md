@@ -1,10 +1,10 @@
 # Animator
 
-O animator, uma ferramenta do Unity que serve para desenvolver animações, poupando tempo no projeto, pois trabalhamos na mesma ferramenta que é desenvolvida.
+O animator é uma ferramenta do Unity que serve para desenvolver animações. O facto desta ferramenta estar incluída dentro do Unity faz poupar tempo aos animadores e aos developers, que de outra forma teriam de usar outro software e depois importar os conteúdos multimédia para dentro do Unity.
 
-Uma animação é criada a partir de um conjunto de clips de animações conectadas entre si a partir de transições que podem ser ajustadas, e podem ser acionadas a partir de um comando ou um evento.&#x20;
+Uma animação é criada a partir de um conjunto de clips de animações conectados entre si a partir de transições que podem ser ajustadas, e podem ser acionadas a partir de um comando ou um evento.&#x20;
 
-Por exemplo no TunnyStones, quando o personagem começa o jogo, é acionada uma transiçāo para um acerta animaçāo
+Por exemplo no projeto em questāo, quando o personagem começa o jogo, é acionada uma transiçāo para uma acerta animaçāo
 
 ![A personagem está a utilizar a animaçāo "SwimmingAnimation"](<../../.gitbook/assets/Screenshot 2022-05-10 at 17.51.52.png>)
 
