@@ -2,11 +2,11 @@
 
 ## Criaçāo de um novo ambiente de trabalho no macOS
 
-Comecei a trabalhar num utilizar pré-existente, onde isto trouxe varios problemas, como por exemplo, ter acesso às credenciais de outro utilizador.
+Comecei a trabalhar num utilizar pré-existente, isto trouxe varios problemas, como por exemplo, ter acesso às credenciais de outro utilizador.
 
 Muitos desses problemas estiveram relacionados com o Git e o SorceTree.
 
-Para resolver isso criei um novo utilizador configurei todas ferramentas necessárias e associei-as às minhas contas nomeadamente:
+Para resolver isso criei um novo utilizador e configurei todas ferramentas necessárias e associei-as às minhas contas nomeadamente:
 
 #### Chrome
 
@@ -91,22 +91,20 @@ $ ssh-add "private SSH key"
 Existem três tipos de metodos para dividir as sprite:
 
 * Automatico: Onde nem sempre o programa faz a divisāo correta,  pois devem assumir todas a mesma medida, para nāo causar uma má animaçāo;
-* Grade por tamanho da celula: Permite ao programador ajustar da melhor maneira, seja o padding entre os frames e o tamanho da celula.
-* Grade por contage de celulas: No caso em que a sprite estivesse devidamente distribuida, esta opçāo faria logo a divisāo entre o numero de colunas e linhas existentes na sprite.
+* Grelha por tamanho da célula: Permite ao programador ajustar da melhor maneira, seja o padding entre os frames e o tamanho da celula.
+* Grelha por contagem de células: No caso em que a sprite estivesse devidamente distribuida, esta opçāo faria logo a divisāo entre o numero de colunas e linhas existentes na sprite.
 
 Utilizamos a segunda opçāo por se tornar a opçāo mais prática neste caso.
 
 ![ Sprite de exemplo utilizada no projeto em questāo](<../.gitbook/assets/Screenshot 2022-05-12 at 11.19.57.png>)
 
-#### Criaçāo da animaçāo e implementaçāo da mesma no projeto
+#### Configuraçāo e implementaçāo da animaçāo  no projeto
 
 Para a criaçāo da animaçāo, basta arranstar para a Scene a sprite.
 
-Após criada a animaçāo, associmos-a a um gameobject com um SpriteRender e um Animator.
+Após criada a animaçāo, é necessário associá-la a um gameobject com um SpriteRender e um Animator.
 
 No Sprite Render associamos a nossa sprite, e no animator a nossa animaçāo.
-
-Com tudo isto, agregamos o gameobject com a animaçāo ao local onde queremos que animaçāo seja implementada.
 
 ![Criaçāo de um objeto para implementar implementar a animaçāo](../.gitbook/assets/AnimatonImpl.png)
 
