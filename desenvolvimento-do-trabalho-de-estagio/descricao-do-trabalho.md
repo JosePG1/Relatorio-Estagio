@@ -2,15 +2,11 @@
 
 ## Criaçāo de um novo ambiente de trabalho no macOS
 
-Inicialmente surgiram alguns conflitos, porque iniciei o trabalho em um utilizador já existente no macOS, onde várias ferramentas já estariam configuradas com o respetivo utilizador, dai surgirem os conflitos quando tentei configurar essas mesmas com as minhas credenciais. Por exemplo no SourceTree, uma das ferramentas essenciais para o meu projeto, foi necessário configurá-la com a minha conta do GitHub, para posteriormente fazer um pull request em meu nome das alterações feitas no projeto, surgindo ai conflitos relacionados com permissões do usário do macOS em que me encontrava.
+Comecei a trabalhar num utilizar pré-existente, onde isto trouxe varios problemas, como por exemplo, ter acesso às credenciais de outro utilizador.
 
-Foram necessários os seguintes passos para criar um novo ambiente de trabalho, para evitar novamente futuros conflitos:
+Muitos desses problemas estiveram relacionados com o Git e o SorceTree.
 
-### Criaçāo de um novo user no macOS como admin
-
-### Dar permissões no SSD ao novo user
-
-### Setups de todas as ferramentas necessárias para o desenvolvimentos do projeto nomeadamente:
+Para resolver isso criei um novo utilizador configurei todas ferramentas necessárias e associei-as às minhas contas nomeadamente:
 
 #### Chrome
 
@@ -46,6 +42,10 @@ Activaçāo da licença do Rider a partir das credencias já existentes
 
 Abertura do projeto TunnyStones
 
+Para aceder ao repositório do projeto, também foi necessário dar permissões no SSD ao novo utilizador.
+
+
+
 ## Criaçāo e Configuracao da SSH key
 
 Para ser possivel a criaçāo de pull requests para o repositório do projeto, foi necessáio configurar o SourceTree com a conta pessoal do GitHub e respetiva SSH key, e para isso foi necessário gerar uma seguindo os proximos passos.
@@ -58,7 +58,7 @@ Para ser possivel a criaçāo de pull requests para o repositório do projeto, f
 $ ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
-&#x20; Se estivermos a usar um "Legacy System" que nao suporta o algoritmo Ed25519
+&#x20; Se estivermos a usar um sistema antigo que nao suporta o algoritmo Ed25519
 
 ```shell
 $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
@@ -88,9 +88,25 @@ $ ssh-add "private SSH key"
 
 #### Ajuste dos frames do sprite, para a criaçāo da animaçāo
 
+Existem três tipos de metodos para dividir as sprite:
+
+* Automatico: Onde nem sempre o programa faz a divisāo correta,  pois devem assumir todas a mesma medida, para nāo causar uma má animaçāo;
+* Grade por tamanho da celula: Permite ao programador ajustar da melhor maneira, seja o padding entre os frames e o tamanho da celula.
+* Grade por contage de celulas: No caso em que a sprite estivesse devidamente distribuida, esta opçāo faria logo a divisāo entre o numero de colunas e linhas existentes na sprite.
+
+Utilizamos a segunda opçāo por se tornar a opçāo mais prática neste caso.
+
 ![ Sprite de exemplo utilizada no projeto em questāo](<../.gitbook/assets/Screenshot 2022-05-12 at 11.19.57.png>)
 
 #### Criaçāo da animaçāo e implementaçāo da mesma no projeto
+
+Para a criaçāo da animaçāo, basta arranstar para a Scene a sprite.
+
+Após criada a animaçāo, associmos-a a um gameobject com um SpriteRender e um Animator.
+
+No Sprite Render associamos a nossa sprite, e no animator a nossa animaçāo.
+
+Com tudo isto, agregamos o gameobject com a animaçāo ao local onde queremos que animaçāo seja implementada.
 
 ![Criaçāo de um objeto para implementar implementar a animaçāo](../.gitbook/assets/AnimatonImpl.png)
 
