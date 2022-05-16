@@ -8,8 +8,8 @@ Uma animação é criada a partir de um conjunto de clips de animações conecta
 
 Por exemplo no projeto em questāo, quando o personagem começa o jogo, é acionada uma transiçāo para a animaçāo "SwimmingAnimation".
 
-![A personagem está a utilizar a animaçāo "SwimmingAnimation"](<.gitbook/assets/Screenshot 2022-05-10 at 17.51.52.png>)
+![A personagem está a utilizar a animaçāo "SwimmingAnimation"](<../../.gitbook/assets/Screenshot 2022-05-10 at 17.51.52.png>)
 
 Após a personagem receber a nota correta, sofre uma transiçāo para a animaçāo "Standing".
 
-![A personagem transita para a animaçāo "Standing" após receber uma nota correta](<.gitbook/assets/Screenshot 2022-05-10 at 17.59.05.png>)
+![A personagem transita para a animaçāo "Standing" após receber uma nota correta](<../../.gitbook/assets/Screenshot 2022-05-10 at 17.59.05.png>)

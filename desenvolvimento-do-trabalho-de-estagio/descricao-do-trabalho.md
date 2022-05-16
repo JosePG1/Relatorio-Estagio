@@ -108,4 +108,25 @@ No Sprite Render associamos a nossa sprite, e no animator a nossa animaçāo.
 
 ![Criaçāo de um objeto para implementar implementar a animaçāo](../.gitbook/assets/AnimatonImpl.png)
 
-#### &#x20;
+## Buil do projeto
+
+Após realizaçāo de uma nova feature, ou mesmo fix de um Bug, é sempre necessário criar uma nova build do project para dar seguimento à fase de testes.
+
+Existem várias plataformas no qual o nosso projeto pode ser lançado, como por exemplo Android, iOS, PC, ect..
+
+![Várias plataformas para Build](<../.gitbook/assets/Screenshot 2022-05-16 at 17.10.22.png>)
+
+### iOS
+
+Para criar uma build para iOS, o primeiro passo será selecionar a plataforma que queremos (iOS) e trocar de plataforma nas definições da build.
+
+![Seleçāo da plataforma para Build](<../.gitbook/assets/Screenshot 2022-05-16 at 17.12.43.png>)
+
+Quando o Unity terminar de trocar de plataforma, no momento de fazer a build, o local onde essa build será guardada requer alguma atençāo.
+
+Deve ser devidamente identifico, para nāo criar repetidas builds da mesma feature/bug que estamos a trabalhar.
+
+Para conseguir testar o nosso projeto, abrimos um ficheiro com extençāo ".xcworkspace".
+
+![Ficheiro com extençāo ".xcworkspace"](<../.gitbook/assets/Screenshot 2022-05-16 at 17.25.56.png>)
+
