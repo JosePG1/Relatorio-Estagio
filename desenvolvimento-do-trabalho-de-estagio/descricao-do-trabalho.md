@@ -134,7 +134,7 @@ Para testar o nosso projeto, podemos fazer a build diretamente num iPad/iPhone, 
 
 ![Build da versāo teste (Archive)](../.gitbook/assets/Screenshot\_2022-05-17\_at\_14\_23\_07.png)
 
-Esta versāo pode ser testada a partir do testfly, um serviço online para teste de aplicações, por um grupo reservado de pessoas definido pela equipa.
+Esta versāo pode ser testada a partir do TestFlight, um serviço online para teste de aplicações, por um grupo reservado de pessoas definido pela equipa.
 
 Em alguns casos especificos, podem surgir erros na build, sendo facilmente resolvidos com uma simples açāo.
 
