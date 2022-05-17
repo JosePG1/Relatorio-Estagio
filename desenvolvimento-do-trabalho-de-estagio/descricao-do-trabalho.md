@@ -126,7 +126,23 @@ Quando o Unity terminar de trocar de plataforma, no momento de fazer a build, o 
 
 Deve ser devidamente identifico, para nāo criar repetidas builds da mesma feature/bug que estamos a trabalhar.
 
-Para conseguir testar o nosso projeto, abrimos um ficheiro com extençāo ".xcworkspace".
+Para conseguir testar o nosso projeto, abrimos um ficheiro com extençāo ".xcworkspace", que irá abrir o Xcode.
 
 ![Ficheiro com extençāo ".xcworkspace"](<../.gitbook/assets/Screenshot 2022-05-16 at 17.25.56.png>)
+
+Para testar o nosso projeto, podemos fazer a build diretamente num iPad/iPhone, ou criar uma versāo teste (Archive).&#x20;
+
+![Build da versāo teste (Archive)](../.gitbook/assets/Screenshot\_2022-05-17\_at\_14\_23\_07.png)
+
+Esta versāo pode ser testada a partir do testfly, um serviço online para teste de aplicações, por um grupo reservado de pessoas definido pela equipa.
+
+Em alguns casos especificos, podem surgir erros na build, sendo facilmente resolvidos com uma simples açāo.
+
+![Resoluçāo de possiveis erros na build](../.gitbook/assets/Screenshot\_2022-05-17\_at\_14\_31\_18.png)
+
+
+
+
+
+
 
