@@ -10,6 +10,8 @@
 
 [https://www.masterd.pt/blog/o-que-e-o-unity-e-para-que-serve](https://www.masterd.pt/blog/o-que-e-o-unity-e-para-que-serve)
 
+[https://blog.betrybe.com/git/#2](https://blog.betrybe.com/git/#2)
+
 Adobe Creative Team, Adobe Photoshop CS6 Classroom in a Book, Adobe Systems, 2012
 
 Adobe Creative Team, Adobe Illustrator CS6 Classroom in a Book, Adobe Systems, 2012
