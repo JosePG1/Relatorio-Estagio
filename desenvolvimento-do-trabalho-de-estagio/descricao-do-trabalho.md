@@ -140,9 +140,52 @@ Em alguns casos especificos, podem surgir erros na build, sendo facilmente resol
 
 ![Resoluçāo de possiveis erros na build](../.gitbook/assets/Screenshot\_2022-05-17\_at\_14\_31\_18.png)
 
+### Conversāo de gitbook (marcdown) para pdf
 
+Como já foi referido anteriormente no estudo e levantamento das ferramentas, o gitbook permite desenvolver o relatório em git, que por sua vez gera ficheiro em formato md (marcdown).
 
+Para converter estes ficheiros num único pdf, é necessário usar ferramentas como Paddock e Latex.
 
+Começamos por abrir o repositório onde está guardado o relatório com o SourceTree, e abrimos o terminal.
 
+![](<../.gitbook/assets/Screenshot 2022-06-02 at 10.47.25.png>)
 
+#### Padoc e LaTex no MacOS
 
+A instalação do Padoc foi feita com HomeBrew (Package Manager) a partir da linha de comandos.
+
+Verificamos entāo se o HomeBrew está instalado a partir da seguinte linha de comandos:
+
+```
+brew help
+```
+
+Após garantirmos que temos o Homebrew instalado, avançamos para a intalaçāo do Pandoc e LaTeX
+
+```
+brew install pandoc
+```
+
+```
+brew install librsvg python 
+```
+
+```
+brew install --cask basictex
+```
+
+Concluidas todas a intalações, reiniciamos o terminal, e na mesma pasta em que se encontra o repositorio do relatorio criamos um novo ficheiro do tipo .sh.
+
+Este ficheiro permite costumizar o texto e a organizaçāo do mesmo, que vai gerar um documento pdf.
+
+![](<../.gitbook/assets/Screenshot 2022-06-02 at 11.38.11.png>)
+
+Criado o ficheiro, dámos-lhe permissões, e geramos o documento pdf.
+
+```
+chmod +x "ficheiro .sh"
+```
+
+```
+./ "ficheiro .sh" "caminho do repositório"
+```

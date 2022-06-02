@@ -27,7 +27,7 @@
   * [Xcode](fundamentos-teoricos/xcode.md)
 * [Desenvolvimento do Trabalho de Estágio](desenvolvimento-do-trabalho-de-estagio/README.md)
   * [Metedologia de Trabalho](desenvolvimento-do-trabalho-de-estagio/metedologia-de-trabalho.md)
-  * [Estudo e Levantamento das Ferramentas](desenvolvimento-do-trabalho-de-estagio/estudo-e-levantamento-das-ferramentas/README.md)
+  * [Estudo e Levantamento das Ferramentas](desenvolvimento-do-trabalho-de-estagio/estudo-e-levantamento-das-ferramentas.md)
     * [Click Up](desenvolvimento-do-trabalho-de-estagio/estudo-e-levantamento-das-ferramentas/click-up.md)
     * [Gitbook](desenvolvimento-do-trabalho-de-estagio/estudo-e-levantamento-das-ferramentas/gitbook.md)
     * [Slack](desenvolvimento-do-trabalho-de-estagio/estudo-e-levantamento-das-ferramentas/slack.md)

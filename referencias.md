@@ -10,7 +10,9 @@
 
 [https://www.masterd.pt/blog/o-que-e-o-unity-e-para-que-serve](https://www.masterd.pt/blog/o-que-e-o-unity-e-para-que-serve)
 
-[https://blog.betrybe.com/git/#2](https://blog.betrybe.com/git/#2)
+[https://medium.com/macoclock/how-to-setup-pandoc-and-latex-on-macos-mojave-8e18fa71e816](https://medium.com/macoclock/how-to-setup-pandoc-and-latex-on-macos-mojave-8e18fa71e816)
+
+[https://pt.stackoverflow.com/questions/8315/quais-as-diferen%C3%A7as-entre-git-svn-e-cvs](https://pt.stackoverflow.com/questions/8315/quais-as-diferen%C3%A7as-entre-git-svn-e-cvs)
 
 Adobe Creative Team, Adobe Photoshop CS6 Classroom in a Book, Adobe Systems, 2012
 
