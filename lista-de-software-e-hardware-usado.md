@@ -2,9 +2,7 @@
 
 
 
-O software usado foi o seguinte:
-
-\
+O software usado foi o seguinte:\
 
 
 \

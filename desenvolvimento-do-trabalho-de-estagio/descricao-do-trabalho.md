@@ -140,19 +140,19 @@ Em alguns casos especificos, podem surgir erros na build, sendo facilmente resol
 
 ![Resoluçāo de possiveis erros na build](../.gitbook/assets/Screenshot\_2022-05-17\_at\_14\_31\_18.png)
 
-### Conversāo de gitbook (marcdown) para pdf
+### Conversāo de gitbook (markdown) para pdf
 
-Como já foi referido anteriormente no estudo e levantamento das ferramentas, o gitbook permite desenvolver o relatório em git, que por sua vez gera ficheiro em formato md (marcdown).
+Como já foi referido anteriormente no estudo e levantamento das ferramentas, o gitbook permite desenvolver o relatório em git, que por sua vez gera ficheiro em formato md (markdown).
 
-Para converter estes ficheiros num único pdf, é necessário usar ferramentas como Paddock e Latex.
+Para converter estes ficheiros num único pdf, é necessário usar ferramentas como Pandoc e Latex.
 
 Começamos por abrir o repositório onde está guardado o relatório com o SourceTree, e abrimos o terminal.
 
 ![](<../.gitbook/assets/Screenshot 2022-06-02 at 10.47.25.png>)
 
-#### Padoc e LaTex no MacOS
+#### Pandoc e LaTex no MacOS
 
-A instalação do Padoc foi feita com HomeBrew (Package Manager) a partir da linha de comandos.
+A instalação do Pandoc foi feita com HomeBrew (Package Manager) a partir da linha de comandos.
 
 Verificamos entāo se o HomeBrew está instalado a partir da seguinte linha de comandos:
 

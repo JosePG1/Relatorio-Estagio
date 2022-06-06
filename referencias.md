@@ -14,6 +14,10 @@
 
 [https://pt.stackoverflow.com/questions/8315/quais-as-diferen%C3%A7as-entre-git-svn-e-cvs](https://pt.stackoverflow.com/questions/8315/quais-as-diferen%C3%A7as-entre-git-svn-e-cvs)
 
+[https://slack.com/intl/pt-br/help/articles/115004071768-O-que-%C3%A9-o-Slack-](https://slack.com/intl/pt-br/help/articles/115004071768-O-que-%C3%A9-o-Slack-)
+
+[https://www.globallogic.com/services/offerings/atlassian/products/sourcetree/](https://www.globallogic.com/services/offerings/atlassian/products/sourcetree/)
+
 Adobe Creative Team, Adobe Photoshop CS6 Classroom in a Book, Adobe Systems, 2012
 
 Adobe Creative Team, Adobe Illustrator CS6 Classroom in a Book, Adobe Systems, 2012

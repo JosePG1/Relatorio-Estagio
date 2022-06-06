@@ -10,7 +10,9 @@ Para além do Git, existem outras tecnologias que podem ser classificadas em dua
 
 #### Sistemas de versionamento centralizados
 
-* CVS e SVN possuem um repositório central, onde os developers fazem checkouts e commits.
+* CVS, SVN e Perforce (standard na industria dos videijogos) possuem um repositório central, onde os developers fazem checkouts e commits.
+
+
 
 #### Sistemas de versionamento distribuidos&#x20;
 
@@ -32,7 +34,7 @@ Para trabalhar com git e source control existem alguns conceitos que é necessá
 
 Branch significa "ramo", ou seja, uma ramificação do código. Isto tem como objetivo evitar que novas funcionalidades sejam criadas sobre um determinado projeto já funcional.&#x20;
 
-Por exemplo uma aplicação que já se encontre lancada na loja, e é necessário implementar uma nova funcionalidade, criamos um novo ramo para a desenvolver, e apos esta estar completamente funcional, efetua-se merge do branch no branch principal do projeto ('main trunk', normalmente chamado de 'master').
+Por exemplo uma aplicação que já se encontre lançada na loja, e é necessário implementar uma nova funcionalidade, cria-se um novo ramo para a desenvolver, e após esta estar completamente funcional, efetua-se merge do branch no branch principal do projeto ('main trunk', normalmente chamado de 'master').
 
 Isto permito que sejam desenvolvidas diversas funcionalidades simultaneamente sem interferir com o projeto original.
 
