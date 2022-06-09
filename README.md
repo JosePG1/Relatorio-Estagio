@@ -1,10 +1,10 @@
-# Relatório de Estágio 2022
+# Relatório de Estágio 2022 - iOS Music Platformer - CPDS
 
-## INSTITUTO POLITÉCNICO DE VIANA DO CASTELO
+### INSTITUTO POLITÉCNICO DE VIANA DO CASTELO
 
-## ESCOLA SUPERIOR DE TECNOLOGIA E GESTÃO
+### ESCOLA SUPERIOR DE TECNOLOGIA E GESTÃO
 
-## RELATÓRIO DE PROJECTO FINAL / ESTÁGIO
+### RELATÓRIO DE PROJECTO FINAL / ESTÁGIO
 
 Engenharia da Computação Gráfica e Multimédia
 
@@ -18,7 +18,7 @@ Orientador/Tutor na Empresa: Miguel Barros
 
 Orientador na ESTG: Prof. Paula Rego
 
-Data:
+Data: 24/06/2022
 
 Repositório git: [https://github.com/JosePG1/relatorio-estagio-2022](https://github.com/JosePG1/relatorio-estagio-2022)
 

@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Relatório de Estágio 2022](README.md)
+* [Relatório de Estágio 2022 - iOS Music Platformer - CPDS](README.md)
 * [Prefacio](<README (1).md>)
   * [Agradecimentos](prefacio/agradecimentos.md)
   * [Resumo](prefacio/resumo.md)
