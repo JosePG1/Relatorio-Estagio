@@ -64,17 +64,17 @@ Existem três tipos de metodos para dividir as sprite:
 * Grelha por contagem de células: No caso em que a Sprite estivesse devidamente distribuida, esta opção faria logo a divisão entre o número de colunas e linhas existentes na Sprite.
 * Automatico: Ajusta o tamanho da célula automaticamente;
 
-Utilizamos a segunda opçāo por se tornar a opçāo mais prática neste caso.
+Utilizamos a primeira opçāo por ser a mais prática neste caso.
 
 ![ Sprite de exemplo utilizada no projeto em questāo](<../.gitbook/assets/Screenshot 2022-05-12 at 11.19.57.png>)
 
 #### Configuraçāo e implementaçāo da animaçāo  no projeto
 
-Para a criaçāo da animaçāo, basta arranstar para a Scene a sprite.
+Para a criaçāo da animaçāo, basta arranstar a sprite para a Scene .
 
 Após criada a animaçāo, é necessário associá-la a um gameobject com um SpriteRender e um Animator.
 
-No Sprite Render associamos a nossa sprite, e no animator a nossa animaçāo.
+No Sprite Render associamos a nossa sprite, e no animator à nossa animaçāo.
 
 ![Criaçāo de um objeto para implementar implementar a animaçāo](../.gitbook/assets/AnimatonImpl.png)
 
@@ -94,7 +94,7 @@ Para criar uma build para iOS, o primeiro passo será selecionar a plataforma qu
 
 Quando o Unity terminar de trocar de plataforma, no momento de fazer a build, o local onde essa build será guardada requer alguma atençāo.
 
-Deve ser devidamente identifico, para nāo criar repetidas builds da mesma feature/bug que estamos a trabalhar.
+Deve ser devidamente identificado, para nāo criar builds repetidas da mesma feature/bug em que estamos a trabalhar.
 
 Para conseguir testar o nosso projeto, abrimos um ficheiro com extençāo ".xcworkspace", que irá abrir o Xcode.
 
@@ -110,7 +110,7 @@ Em alguns casos especificos, podem surgir erros na build, sendo facilmente resol
 
 ![Resoluçāo de possiveis erros na build](../.gitbook/assets/Screenshot\_2022-05-17\_at\_14\_31\_18.png)
 
-### Conversāo de gitbook (markdown) para pdf
+## Conversāo de gitbook (markdown) para pdf
 
 Como já foi referido anteriormente no estudo e levantamento das ferramentas, o gitbook permite desenvolver o relatório em git, que por sua vez gera ficheiro em formato md (markdown).
 
