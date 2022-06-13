@@ -1,3 +1,6 @@
 # Apresentação do Problema e Área de Desenvolvimento
 
-#### // Apresentar em termos gerais o "problema" a desenvolver e descrevê‐lo; referir a área de desenvolvimento em que se insere
+No ambito deste projeto foi-me proposto desenvolver uma aplicação de teoria musical, com várias features ainda por desenvolver, como também bugs que ainda limitam appp.
+
+
+

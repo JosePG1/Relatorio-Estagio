@@ -14,7 +14,7 @@ Git é sistema de controlo de versões, que permite que vários developers traba
 
 Os membros da CPDS usam Git para todos so projetos.
 
-Outra grande razão para o uso do Git, é a enorme variedade de comandos, como também o quāo bem documentado está.   &#x20;
+Outra grande razão para o uso do Git, é a enorme variedade de comandos, como git clone que permite clonar um projeto, ou git status para saber o estado do repositório, e o quão bem documentado está.   &#x20;
 
 Para trabalhar com git e source control é necessário compreender alguns conceitos:&#x20;
 
@@ -28,33 +28,36 @@ Para trabalhar com git e source control é necessário compreender alguns concei
 
 ![](../.gitbook/assets/branch.png)
 
-Branch significa "ramo", ou seja, uma ramificação do código. Isto tem como objetivo evitar que novas funcionalidades sejam criadas sobre um determinado projeto já funcional.&#x20;
+Branch significa "ramo", ou seja, uma ramificação do código. A utilização de branches tem como objetivo evitar que novas funcionalidades sejam criadas sobre um determinado projeto já funcional.&#x20;
 
-Por exemplo uma aplicação que já se encontre lançada na loja, e é necessário implementar uma nova funcionalidade, cria-se um novo ramo para a desenvolver, e após esta estar completamente funcional, efetua-se merge do branch no branch principal do projeto ('main trunk', normalmente chamado de 'master').
+Quando pretendemos adicionar uma nova feature a uma app já em loja, o desenvolviemnto de essa feature nunca vai ser feita sobre o projeto original.
+
+Para isso criamos um branch, relativamente ao branch principal do projeto ('main trunk', normalmente chamado de 'master'), para assim desenvolver essa nova feature sem causar conflitos com o original.
+
+Após testada a nova feature, e concluido que está pronta para ser lançada, avançamos com merge no "master",  para que assim faça parte da aplicação.
 
 Isto permito que sejam desenvolvidas diversas funcionalidades simultaneamente sem interferir com o projeto original.
 
 #### Merge
 
-Merge é a operação que permite pegar nos ramos independentes que foram criados, e integra-los num só ramo.
+Merge é a operação que permite juntar ramos independentes num só.
 
 #### Commits
 
-Um commit é conjunto de alterações que foram feitas no projeto, com uma mensagem que resume essa alteração.
+Um commit é conjunto de alterações com uma mensagem que as resume.
 
-Uma boa pratica ao usar o git, é a criação de commits curtos, isso pode evitar perder grandes quantidades de código, como também facilita voltar atras no código caso seja necessário.
+Uma boa prática ao usar o git, é a criação de commits curtos. Usar commist granulares pode evitar perder grandes quantidades de código, e facilita reverter código quando necessário.
 
 
 
 ### Git LFS
 
-![](<../.gitbook/assets/Screenshot 2022-06-02 at 16.54.08.png>)
+Quando efetuamos clone de um repositório, é feito o download de todo o seu histórico.
 
-Quando efetuamos clone de um repositório, é feito o dowload de todo o seu histórico.
-
-Quando clonamos projetos que contêm grande ficheiros, como por exemplo audios, videos, etc.., é cosumida uma enorme quantidade de tempo.
+Clonar projetos com grandes ficheiros, como por exmplo audio ou vídeo é um processo muito demorado e que pode ocupar muito espaço em disco.
 
 Git LFS é uma extençāo Git, que reduz o impacto desses ficheiros no repositório, sendo transferidos só quando necessário.
 
 Resumidamente, grande ficheiros são transferidos no processo de checkout e não durante a clonagem.&#x20;
 
+O Git é o padrão do mercado hoje para versionamento de código, essencial para qualquer programador, independentemente das linguagens dos projetos, assim sendo essencial familiarizar-se com este sistema.

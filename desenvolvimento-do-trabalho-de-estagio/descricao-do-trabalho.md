@@ -2,53 +2,21 @@
 
 ## Criaçāo de um novo ambiente de trabalho no macOS
 
-Comecei a trabalhar num utilizar pré-existente, isto trouxe varios problemas, como por exemplo, ter acesso às credenciais de outro utilizador.
+Comecei a trabalhar num utilizador pré-existente, isto trouxe vários problemas, como por exemplo, ter acesso às credenciais de outro utilizador.
 
-Muitos desses problemas estiveram relacionados com o Git e o SorceTree.
+Muitos desses problemas estiveram relacionados com o Git e o SourceTree.
 
-Para resolver isso criei um novo utilizador e configurei todas ferramentas necessárias e associei-as às minhas contas nomeadamente:
+Para resolver isso criei um novo utilizador e configurei todas as ferramentas necessárias e associei-as às minhas contas nomeadamente:
 
-#### Chrome
-
-Organizaçāo todas as tabs recorrentes, como por exemplo o ClickUp;
-
-#### Slack
-
-Login na conta
-
-#### UnityHub
-
-Instalaçāo da versāo correta para o projeto
-
-Login e abertura do projeto
-
-#### SourceTree
-
-Login com a conta do GitHub, utilizando a respetiva chave SHH da conta
-
-Abertura do repositório TunnyStones que já se encontra no SSD
-
-Instalação do “homebrew” a partir do terminal
-
-Instalação do “git-lfs” a partir do terminal do SorceTree
-
-Git-lfs pull
-
-Verificaçāo do estado do repositório através da linha de comandos para verificar se não                existem  comits pendentes($git status)
-
-#### Rider
-
-Activaçāo da licença do Rider a partir das credencias já existentes
-
-Abertura do projeto TunnyStones
-
-Para aceder ao repositório do projeto, também foi necessário dar permissões no SSD ao novo utilizador.
-
-
+* Chrome
+* Slack
+* UnityHub
+* SourceTree
+* Rider
 
 ## Criaçāo e Configuracao da SSH key
 
-Para ser possivel a criaçāo de pull requests para o repositório do projeto, foi necessáio configurar o SourceTree com a conta pessoal do GitHub e respetiva SSH key, e para isso foi necessário gerar uma seguindo os proximos passos.
+Para ser possivel a criaçāo de pull requests para o repositório do projeto, foi necessario configurar o SourceTree com a conta pessoal do GitHub e respetiva SSH key, e para isso foi necessário gerar uma seguindo os proximos passos.
 
 ### Abrir o terminal e introduzir os seguintes comandos&#x20;
 
@@ -82,17 +50,19 @@ Nas configuracões do github, foi necessário adicionar a nova SSH key gerada, e
 $ ssh-add "private SSH key"
 ```
 
+Após concluir a configuração da SSH key, existem todas as condições para pôr mãos à obra, e avançar para as tarefas que me forma designadas para o iOS Music Platformer.
+
 ## Criaçāo da wind animation e hook up da mesma no projeto
 
-### Criaçāo da wind animation
+Para desenvolver esta tarefa, inicialmente temos de ajustar a sprite, para posteriormente configurá-la e implementá-la no projeto.
 
 #### Ajuste dos frames do sprite, para a criaçāo da animaçāo
 
 Existem três tipos de metodos para dividir as sprite:
 
-* Automatico: Onde nem sempre o programa faz a divisāo correta,  pois devem assumir todas a mesma medida, para nāo causar uma má animaçāo;
-* Grelha por tamanho da célula: Permite ao programador ajustar da melhor maneira, seja o padding entre os frames e o tamanho da celula.
-* Grelha por contagem de células: No caso em que a sprite estivesse devidamente distribuida, esta opçāo faria logo a divisāo entre o numero de colunas e linhas existentes na sprite.
+* Grelha por tamanho da célula: Permite ao programador ajustar manualmente o tamanho da célula.
+* Grelha por contagem de células: No caso em que a Sprite estivesse devidamente distribuida, esta opção faria logo a divisão entre o número de colunas e linhas existentes na Sprite.
+* Automatico: Ajusta o tamanho da célula automaticamente;
 
 Utilizamos a segunda opçāo por se tornar a opçāo mais prática neste caso.
 
