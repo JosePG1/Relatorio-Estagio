@@ -1,7 +1,5 @@
 # Xcode
 
-![](../.gitbook/assets/Xcode\_icon.jpeg)
-
 Xcode é uma ferramenta para a criação de apps em dispositivos IOS.&#x20;
 
 Esta ferramenta permite ao developer testar uma determinada aplicaçāo em desenvolvimento, onde é definida a sua versão, como também a respetiva build.
