@@ -2,7 +2,7 @@
 
 ## Criaçāo de um novo ambiente de trabalho no macOS
 
-Comecei a trabalhar num utilizador pré-existente, isto trouxe vários problemas, como por exemplo, ter acesso às credenciais de outro utilizador.
+Começou-se a trabalhar num utilizador pré-existente, isto trouxe vários problemas, como por exemplo, ter acesso às credenciais de outro utilizador.
 
 Muitos desses problemas estiveram relacionados com o Git e o SourceTree.
 
