@@ -7,7 +7,6 @@
   * [Abstract](prefacio/abstract.md)
   * [Índice](prefacio/indice.md)
   * [Índice de Figuras](prefacio/indice-de-figuras.md)
-  * [Índice de Tabelas](prefacio/indice-de-tabelas.md)
 * [Introdução](introducao/README.md)
   * [Considerações Gerais](introducao/consideracoes-gerais.md)
   * [Apresentação do Problema e Área de Desenvolvimento](introducao/apresentacao-do-problema-e-area-de-desenvolvimento.md)
