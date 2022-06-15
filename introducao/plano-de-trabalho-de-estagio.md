@@ -13,9 +13,3 @@ Já a meio do meu percurso, na quarta semana foi dada continuidade ao sistema de
 Terminada esta tarefa, já na Quinta semana foi feito o Setup do botão retry no jogo, como também foi dado o inico da criação de um novo layout para a o ecrã de subscrição, que acabu por ser uma tarefa mais complexa que se prolongou até à sexta semana.
 
 No decorrer das ultimas 2 semanas de estágio, exigiu um maior foco no termino do relatório, este que foi vindo a ser desenvolvido ao longo das 8 semanas de estágio, como também na testagem do jogo.
-
-
-
-
-
-#### // Apresentar esquema com a evolução cronológica do trabalho (etapas principais seguidas no desenvolvimento do trabalho, seguida duma estimativa da sua duração, em n.º de semanas)

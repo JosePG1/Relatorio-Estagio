@@ -1,3 +1,10 @@
 # Síntese do Trabalho
 
-Este relatório descreveu o trabalho realizado no âmbito da unidade curricular de “Projeto Final/Estágio”, do Curso de Licenciatura em Engenharia da Computação Gráfica e Multimédia, da ESTG-IPVC. O estágio decorreu na Cooperativa de Profissionais de Desenvolvimento de Software. O objetivo principal do trabalho, era resolver vários problemas associados ao projeto, que limitavam a aplicação, e novas features ainda por implementar, e atraves de um processo iterativo de resolução de Bugs e planeamento de tarefas com base na metodologia  de trabalho"Agile", foi possivel conclui-lo com sucesso&#x20;
+// Voltar a referir qual era o objetivo principal do trabalho (problema proposto)
+
+// Dizer resumidamente como foi resolvido o problema proposto
+
+\
+
+
+#### Este relatório descreveu o trabalho realizado no âmbito da unidade curricular de “Projeto Final/Estágio”, do Curso de Licenciatura em Engenharia da Computação Gráfica e Multimédia, da ESTG-IPVC. O estágio decorreu na\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_. O objetivo principal do trabalho era \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
