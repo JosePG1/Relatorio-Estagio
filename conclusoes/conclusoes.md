@@ -1,3 +1,5 @@
+\pagebreak
+
 # Conclusões
 
 Terminada esta jornada, podemos concluir com segurança que existiu uma contribuição significativa para a melhoria do iOS MUsic PLatformer.&#x20;

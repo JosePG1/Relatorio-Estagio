@@ -1,3 +1,4 @@
+
 # Plano de Trabalho de Estágio
 
 Todas as tarefas que foram desenvolvidas ao longo do estágio foram organizadas e cronometradas a partir do ClickUp.

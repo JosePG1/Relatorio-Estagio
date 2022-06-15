@@ -1,3 +1,4 @@
+
 # Slack
 
 O Slack é uma app de comunicação para empresas, que facilita a comunicaçāo entre colegas de trabalho.

@@ -1,3 +1,4 @@
+
 # Áreas Funcionais
 
 A cooperativa de profissionais de desenvolvimento de software exerce atividades como:

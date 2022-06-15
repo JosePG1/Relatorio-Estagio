@@ -1,3 +1,4 @@
+\pagebreak
 # Relatório de Estágio 2022 - iOS Music Platformer - CPDS
 
 ### INSTITUTO POLITÉCNICO DE VIANA DO CASTELO

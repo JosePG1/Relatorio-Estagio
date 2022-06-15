@@ -8,4 +8,4 @@ Um dos grandes pontos fortes é a grande comunidade de utilizadores, que permite
 
 Unity é a framework utilizada por vários jogos mobile de renome, como por exemplo "**Cuphead**", “**HearthStone**”, “**Genshin Impact**”.&#x20;
 
-![                "Cuphead"                                                      “HearthStone”                                               “Genshin Impact”      ](<../../.gitbook/assets/Screenshot 2022-05-16 at 09.35.23.png>)
+![                "Cuphead"                                                      “HearthStone”                                               “Genshin Impact”      ](<.gitbook/assets/Screenshot_2022-05-16_at_09.35.23.png>)

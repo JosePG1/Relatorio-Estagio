@@ -1,3 +1,4 @@
+\pagebreak
 # Agradecimentos
 
 Com a finalização deste estágio curricular não posso deixar de agradecer a algumas pessoas que me ajudaram neste percurso tão importante na minha vida pessoal e profissional. &#x20;

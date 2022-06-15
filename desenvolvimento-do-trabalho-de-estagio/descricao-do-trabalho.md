@@ -1,3 +1,5 @@
+\pagebreak
+
 # Descriçāo do Trabalho
 
 ## Criaçāo de um novo ambiente de trabalho no macOS
@@ -18,9 +20,9 @@ Para resolver isso criei um novo utilizador e configurei todas as ferramentas ne
 
 Para ser possivel a criaçāo de pull requests para o repositório do projeto, foi necessario configurar o SourceTree com a conta pessoal do GitHub e respetiva SSH key, e para isso foi necessário gerar uma seguindo os proximos passos.
 
-### Abrir o terminal e introduzir os seguintes comandos&#x20;
+### Abrir o terminal e introduzir os seguintes comandos:&#x20;
 
-#### Para criar a SSH key
+Para criar a SSH key
 
 ```shell
 $ ssh-keygen -t ed25519 -C "your_email@example.com"
@@ -32,7 +34,7 @@ $ ssh-keygen -t ed25519 -C "your_email@example.com"
 $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 
-#### Adicionar a SSH key ao ssh-agent
+Adicionar a SSH key ao ssh-agent
 
 ```shell
 $ eval "$(ssh-agent -s)"
@@ -42,9 +44,9 @@ $ eval "$(ssh-agent -s)"
 
 Nas configuracões do github, foi necessário adicionar a nova SSH key gerada, e para isso bastou:&#x20;
 
-* No Finder <img src="https://help.apple.com/assets/61D4C1B5425F2576373C512A/61D4C1B7425F2576373C5132/pt_PT/058e4af8e726290f491044219d2eee73.png" alt="" data-size="line">, selecionar Go > Go to Folder > Macintosh HD, abrir o user no qual a sessāo está iniciada, visualizar os ficheiros ocultos (Cmd+ Shift + <img src="../.gitbook/assets/computer_key_Greater_than_Period.png" alt="" data-size="line">) , e obter a SHH key publica .
+* No Finder <img src="https://help.apple.com/assets/61D4C1B5425F2576373C512A/61D4C1B7425F2576373C5132/pt_PT/058e4af8e726290f491044219d2eee73.png" alt="" data-size="line">, selecionar Go > Go to Folder > Macintosh HD, abrir o user no qual a sessāo está iniciada, visualizar os ficheiros ocultos (Cmd+ Shift + <img src=".gitbook/assets/computer_key_Greater_than_Period.png" alt="" data-size="line">) , e obter a SHH key publica .
 
-#### Introduzir no terminal&#x20;
+### Introduzir no terminal&#x20;
 
 ```shell
 $ ssh-add "private SSH key"
@@ -56,7 +58,7 @@ Após concluir a configuração da SSH key, existem todas as condições para p�
 
 Para desenvolver esta tarefa, inicialmente temos de ajustar a sprite, para posteriormente configurá-la e implementá-la no projeto.
 
-#### Ajuste dos frames do sprite, para a criaçāo da animaçāo
+### Ajuste dos frames do sprite, para a criaçāo da animaçāo
 
 Existem três tipos de metodos para dividir as sprite:
 
@@ -66,31 +68,36 @@ Existem três tipos de metodos para dividir as sprite:
 
 Utilizamos a primeira opçāo por ser a mais prática neste caso.
 
-![ Sprite de exemplo utilizada no projeto em questāo](<../.gitbook/assets/Screenshot 2022-05-12 at 11.19.57.png>)
+![ Sprite de exemplo utilizada no projeto em questāo](<.gitbook/assets/Screenshot_2022-05-12_at_11.19.57.png>)
 
-#### Configuraçāo e implementaçāo da animaçāo  no projeto
+\pagebreak
 
-Para a criaçāo da animaçāo, basta arranstar a sprite para a Scene .
+### Configuraçāo e implementaçāo da animaçāo no projeto
+
+Para a criaçāo da animaçāo, basta arrastar a sprite para a Scene.
 
 Após criada a animaçāo, é necessário associá-la a um gameobject com um SpriteRender e um Animator.
 
 No Sprite Render associamos a nossa sprite, e no animator à nossa animaçāo.
 
-![Criaçāo de um objeto para implementar implementar a animaçāo](../.gitbook/assets/AnimatonImpl.png)
+![Criaçāo de um objeto para implementar implementar a animaçāo](.gitbook/assets/AnimatonImpl.png)
 
-## Buil do projeto
+## Build do projeto
 
 Após realizaçāo de uma nova feature, ou mesmo fix de um Bug, é sempre necessário criar uma nova build do project para dar seguimento à fase de testes.
 
 Existem várias plataformas no qual o nosso projeto pode ser lançado, como por exemplo Android, iOS, PC, ect..
 
-![Várias plataformas para Build](<../.gitbook/assets/Screenshot 2022-05-16 at 17.10.22.png>)
+![Várias plataformas para Build](<.gitbook/assets/Screenshot_2022-05-16_at_17.10.22.png>)
+
+
+\pagebreak
 
 ### iOS
 
 Para criar uma build para iOS, o primeiro passo será selecionar a plataforma que queremos (iOS) e trocar de plataforma nas definições da build.
 
-![Seleçāo da plataforma para Build](<../.gitbook/assets/Screenshot 2022-05-16 at 17.12.43.png>)
+![Seleçāo da plataforma para Build](<.gitbook/assets/Screenshot_2022-05-16_at_17.12.43.png>)
 
 Quando o Unity terminar de trocar de plataforma, no momento de fazer a build, o local onde essa build será guardada requer alguma atençāo.
 
@@ -98,17 +105,19 @@ Deve ser devidamente identificado, para nāo criar builds repetidas da mesma fea
 
 Para conseguir testar o nosso projeto, abrimos um ficheiro com extençāo ".xcworkspace", que irá abrir o Xcode.
 
-![Ficheiro com extençāo ".xcworkspace"](<../.gitbook/assets/Screenshot 2022-05-16 at 17.25.56.png>)
+![Ficheiro com extençāo ".xcworkspace"](<.gitbook/assets/Screenshot_2022-05-16_at_17.25.56.png>)
 
 Para testar o nosso projeto, podemos fazer a build diretamente num iPad/iPhone, ou criar uma versāo teste (Archive).&#x20;
 
-![Build da versāo teste (Archive)](../.gitbook/assets/Screenshot\_2022-05-17\_at\_14\_23\_07.png)
+![Build da versāo teste (Archive)](.gitbook/assets/Screenshot\_2022-05-17\_at\_14\_23\_07.png)
 
 Esta versāo pode ser testada a partir do TestFlight, um serviço online para teste de aplicações, por um grupo reservado de pessoas definido pela equipa.
 
 Em alguns casos especificos, podem surgir erros na build, sendo facilmente resolvidos com uma simples açāo.
 
-![Resoluçāo de possiveis erros na build](../.gitbook/assets/Screenshot\_2022-05-17\_at\_14\_31\_18.png)
+\pagebreak
+
+![Resoluçāo de possiveis erros na build](.gitbook/assets/Screenshot\_2022-05-17\_at\_14\_31\_18.png)
 
 ## Conversāo de gitbook (markdown) para pdf
 
@@ -118,9 +127,9 @@ Para converter estes ficheiros num único pdf, é necessário usar ferramentas c
 
 Começamos por abrir o repositório onde está guardado o relatório com o SourceTree, e abrimos o terminal.
 
-![](<../.gitbook/assets/Screenshot 2022-06-02 at 10.47.25.png>)
+![](<.gitbook/assets/Screenshot_2022-06-02_at_10.47.25.png>)
 
-#### Pandoc e LaTex no MacOS
+### Pandoc e LaTex no MacOS
 
 A instalação do Pandoc foi feita com HomeBrew (Package Manager) a partir da linha de comandos.
 
@@ -148,7 +157,7 @@ Concluidas todas a intalações, reiniciamos o terminal, e na mesma pasta em que
 
 Este ficheiro permite costumizar o texto e a organizaçāo do mesmo, que vai gerar um documento pdf.
 
-![](<../.gitbook/assets/Screenshot 2022-06-02 at 11.38.11.png>)
+![](<.gitbook/assets/Screenshot_2022-06-02_at_11.38.11.png>)
 
 Criado o ficheiro, dámos-lhe permissões, e geramos o documento pdf.
 

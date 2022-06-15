@@ -1,14 +1,15 @@
+
 # Git
 
 Git é sistema de controlo de versões, que permite que vários developers trabalharem em conjunto com maior segurança e fluxo de trabalho, porque é possível navegar todo o histórico de alterações, e caso seja necessário revertê-las.&#x20;
 
 &#x20;Existem outras tecnologias para além do Git. Estas podem ser classificadas em duas grandes categorias:
 
-#### Sistemas de versionamento centralizados
+### Sistemas de versionamento centralizados
 
 * CVS, SVN e Perforce (standard na industria dos videijogos) possuem um repositório central, onde os developers fazem checkouts e commits.
 
-#### Sistemas de versionamento distribuidos&#x20;
+### Sistemas de versionamento distribuidos&#x20;
 
 * É o caso do Git, Mercurial e Bazaar, onde não existe um repositório central.
 
@@ -18,15 +19,15 @@ Outra grande razão para o uso do Git, é a enorme variedade de comandos, como g
 
 Para trabalhar com git e source control é necessário compreender alguns conceitos:&#x20;
 
-#### Repositórios&#x20;
+### Repositórios&#x20;
 
 É um diretório onde se armazena os arquivos de um projeto, que pode ser um repositório local, como por exemplo o computador, ou num repositório remoto, como o GitHub, BitBucket ou GitLab.   &#x20;
 
-#### Branches&#x20;
+### Branches&#x20;
 
 
 
-![](../.gitbook/assets/branch.png)
+![](.gitbook/assets/branch.png)
 
 Branch significa "ramo", ou seja, uma ramificação do código. A utilização de branches tem como objetivo evitar que novas funcionalidades sejam criadas sobre um determinado projeto já funcional.&#x20;
 
@@ -38,11 +39,11 @@ Após testada a nova feature, e concluido que está pronta para ser lançada, av
 
 Isto permito que sejam desenvolvidas diversas funcionalidades simultaneamente sem interferir com o projeto original.
 
-#### Merge
+### Merge
 
 Merge é a operação que permite juntar ramos independentes num só.
 
-#### Commits
+### Commits
 
 Um commit é conjunto de alterações com uma mensagem que as resume.
 
