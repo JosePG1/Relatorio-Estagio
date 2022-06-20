@@ -22,7 +22,7 @@ if [ -d "$GITBOOK_REP" ]; then
       xargs cat | \
       pandoc -f markdown --variable fontsize=10pt \
               --variable=geometry:b5paper \
-             --toc --pdf-engine=xelatex -o book.pdf
+             --toc --pdf-engine=xelatex -o Relatorio_2022.pdf
   else
     echo "File '$SUMMARY_FILE' does not exist"
   fi
