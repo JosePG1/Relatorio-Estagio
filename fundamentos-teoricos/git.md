@@ -7,21 +7,21 @@ Git é sistema de controlo de versões, que permite que vários developers traba
 
 ### Sistemas de versionamento centralizados
 
-* CVS, SVN e Perforce (standard na industria dos videijogos) possuem um repositório central, onde os developers fazem checkouts e commits.
+* CVS, SVN e Perforce (standard na industria dos videojogos) possuem um repositório central, onde os developers fazem checkouts e commits.
 
-### Sistemas de versionamento distribuidos&#x20;
+### Sistemas de versionamento distribuídos&#x20;
 
 * É o caso do Git, Mercurial e Bazaar, onde não existe um repositório central.
 
 Os membros da CPDS usam Git para todos so projetos.
 
-Outra grande razão para o uso do Git, é a enorme variedade de comandos, como git clone que permite clonar um projeto, ou git status para saber o estado do repositório, e o quão bem documentado está.   &#x20;
+Outra grande razão para o uso do Git, é o facto de atualmente ser um standart do mercado, e o quão bem documentado está.   &#x20;
 
-Para trabalhar com git e source control é necessário compreender alguns conceitos:&#x20;
+Para trabalhar com git e source control é necessário compreender alguns conceitos.&#x20;
 
 ### Repositórios&#x20;
 
-É um diretório onde se armazena os arquivos de um projeto, que pode ser um repositório local, como por exemplo o computador, ou num repositório remoto, como o GitHub, BitBucket ou GitLab.   &#x20;
+É um diretório onde se armazena os arquivos de um projeto, que pode ser um repositório local, como por exemplo no computador, ou num repositório remoto, como o GitHub, BitBucket ou GitLab.   &#x20;
 
 ### Branches&#x20;
 
@@ -31,13 +31,13 @@ Para trabalhar com git e source control é necessário compreender alguns concei
 
 Branch significa "ramo", ou seja, uma ramificação do código. A utilização de branches tem como objetivo evitar que novas funcionalidades sejam criadas sobre um determinado projeto já funcional.&#x20;
 
-Quando pretendemos adicionar uma nova feature a uma app já em loja, o desenvolviemnto de essa feature nunca vai ser feita sobre o projeto original.
+Quando pretendemos adicionar uma nova feature a uma app já em loja, o desenvolvimento de essa feature nunca vai ser feita sobre o projeto original.
 
-Para isso criamos um branch, relativamente ao branch principal do projeto ('main trunk', normalmente chamado de 'master'), para assim desenvolver essa nova feature sem causar conflitos com o original.
+Para isso criamos um branch, relativamente ao branch principal do projeto ('main trunk', normalmente chamado de 'master' ou 'main'), para assim desenvolver uma nova feature sem causar conflitos com o original.
 
-Após testada a nova feature, e concluido que está pronta para ser lançada, avançamos com merge no "master",  para que assim faça parte da aplicação.
+Após testada a nova feature, e pronta a ser lançada, avançamos com merge para "master",  para que assim faça parte da aplicação.
 
-Isto permito que sejam desenvolvidas diversas funcionalidades simultaneamente sem interferir com o projeto original.
+Isto permite que sejam desenvolvidas diversas funcionalidades simultaneamente sem interferir com o projeto original.
 
 ### Merge
 
@@ -47,7 +47,7 @@ Merge é a operação que permite juntar ramos independentes num só.
 
 Um commit é conjunto de alterações com uma mensagem que as resume.
 
-Uma boa prática ao usar o git, é a criação de commits curtos. Usar commist granulares pode evitar perder grandes quantidades de código, e facilita reverter código quando necessário.
+Uma boa prática ao usar o git, é a criação de commits curtos. Usar commits granulares pode evitar perder grandes quantidades de código, e facilita reverter código quando necessário.
 
 
 

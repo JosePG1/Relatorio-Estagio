@@ -16,9 +16,9 @@ Para resolver isso criei um novo utilizador e configurei todas as ferramentas ne
 * SourceTree
 * Rider
 
-## Criaçāo e Configuracao da SSH key
+## Criaçāo e Configuracão da SSH key
 
-Para ser possivel a criaçāo de pull requests para o repositório do projeto, foi necessario configurar o SourceTree com a conta pessoal do GitHub e respetiva SSH key, e para isso foi necessário gerar uma seguindo os proximos passos.
+Para ser possível o acesso ao repositório do projeto, foi necessário configurar o SourceTree com a conta pessoal do GitHub e respetiva SSH key. Para isso foi necessário gerar uma seguindo os proximos passos.
 
 ### Abrir o terminal e introduzir os seguintes comandos:&#x20;
 
@@ -44,7 +44,7 @@ $ eval "$(ssh-agent -s)"
 
 Nas configuracões do github, foi necessário adicionar a nova SSH key gerada, e para isso bastou:&#x20;
 
-* No Finder <img src="https://help.apple.com/assets/61D4C1B5425F2576373C512A/61D4C1B7425F2576373C5132/pt_PT/058e4af8e726290f491044219d2eee73.png" alt="" data-size="line">, selecionar Go > Go to Folder > Macintosh HD, abrir o user no qual a sessāo está iniciada, visualizar os ficheiros ocultos (Cmd+ Shift + <img src=".gitbook/assets/computer_key_Greater_than_Period.png" alt="" data-size="line">) , e obter a SHH key publica .
+* No Finder <img src="https://help.apple.com/assets/61D4C1B5425F2576373C512A/61D4C1B7425F2576373C5132/pt_PT/058e4af8e726290f491044219d2eee73.png" alt="" data-size="line">, selecionar Go > Go to Folder > Macintosh HD, abrir o user no qual a sessāo está iniciada, visualizar os ficheiros ocultos (Cmd+ Shift + <img src=".gitbook/assets/computer_key_Greater_than_Period.png" alt="" data-size="line">) , obter a SHH key publica e configurá-la no GitHub.
 
 ### Introduzir no terminal&#x20;
 
@@ -60,11 +60,11 @@ Para desenvolver esta tarefa, inicialmente temos de ajustar a sprite, para poste
 
 ### Ajuste dos frames do sprite, para a criaçāo da animaçāo
 
-Existem três tipos de metodos para dividir as sprite:
+Existem três tipos de metodos para dividir as sprites:
 
 * Grelha por tamanho da célula: Permite ao programador ajustar manualmente o tamanho da célula.
 * Grelha por contagem de células: No caso em que a Sprite estivesse devidamente distribuida, esta opção faria logo a divisão entre o número de colunas e linhas existentes na Sprite.
-* Automatico: Ajusta o tamanho da célula automaticamente;
+* Automático: Ajusta o tamanho da célula automaticamente;
 
 Utilizamos a primeira opçāo por ser a mais prática neste caso.
 
@@ -76,17 +76,17 @@ Utilizamos a primeira opçāo por ser a mais prática neste caso.
 
 Para a criaçāo da animaçāo, basta arrastar a sprite para a Scene.
 
-Após criada a animaçāo, é necessário associá-la a um gameobject com um SpriteRender e um Animator.
+Após criada a animaçāo, é necessário associá-la a um gameobject com um sprite renderer e um Animator.
 
-No Sprite Render associamos a nossa sprite, e no animator à nossa animaçāo.
+No sprite renderer associamos a sprite, e no animator a animaçāo.
 
-![Criaçāo de um objeto para implementar implementar a animaçāo](.gitbook/assets/AnimatonImpl.png)
+![Criaçāo de um objeto para implementar a animaçāo](.gitbook/assets/AnimatonImpl.png)
 
 ## Build do projeto
 
-Após realizaçāo de uma nova feature, ou mesmo fix de um Bug, é sempre necessário criar uma nova build do project para dar seguimento à fase de testes.
+Após realizaçāo de uma nova feature, ou mesmo fix de um Bug, é sempre necessário criar uma nova build do projecto para dar seguimento à fase de testes.
 
-Existem várias plataformas no qual o nosso projeto pode ser lançado, como por exemplo Android, iOS, PC, ect..
+Existem várias plataformas no qual o nosso projeto pode ser lançado, como por exemplo Android e iOS.
 
 ![Várias plataformas para Build](<.gitbook/assets/Screenshot_2022-05-16_at_17.10.22.png>)
 
@@ -95,7 +95,7 @@ Existem várias plataformas no qual o nosso projeto pode ser lançado, como por 
 
 ### iOS
 
-Para criar uma build para iOS, o primeiro passo será selecionar a plataforma que queremos (iOS) e trocar de plataforma nas definições da build.
+Para criar uma build para iOS, o primeiro passo será selecionar a plataforma que queremos (iOS).
 
 ![Seleçāo da plataforma para Build](<.gitbook/assets/Screenshot_2022-05-16_at_17.12.43.png>)
 
@@ -117,7 +117,7 @@ Em alguns casos especificos, podem surgir erros na build, sendo facilmente resol
 
 \pagebreak
 
-![Resoluçāo de possiveis erros na build](.gitbook/assets/Screenshot\_2022-05-17\_at\_14\_31\_18.png)
+![Resoluçāo de possíveis erros na build](.gitbook/assets/Screenshot\_2022-05-17\_at\_14\_31\_18.png)
 
 ## Conversāo de gitbook (markdown) para pdf
 
@@ -139,7 +139,7 @@ Verificamos entāo se o HomeBrew está instalado a partir da seguinte linha de c
 brew help
 ```
 
-Após garantirmos que temos o Homebrew instalado, avançamos para a intalaçāo do Pandoc e LaTeX
+Após garantirmos que temos o Homebrew instalado, avançamos para a instalaçāo do Pandoc e LaTeX
 
 ```
 brew install pandoc
@@ -153,9 +153,9 @@ brew install librsvg python
 brew install --cask basictex
 ```
 
-Concluidas todas a intalações, reiniciamos o terminal, e na mesma pasta em que se encontra o repositorio do relatorio criamos um novo ficheiro do tipo .sh.
+Concluídas todas a intalações, reiniciamos o terminal, e na mesma pasta em que se encontra o repositório do relatório criamos um novo ficheiro do tipo .sh (shell script).
 
-Este ficheiro permite costumizar o texto e a organizaçāo do mesmo, que vai gerar um documento pdf.
+Este script permite costumizar o texto e a organizaçāo do mesmo, que vai gerar um documento pdf.
 
 ![](<.gitbook/assets/Screenshot_2022-06-02_at_11.38.11.png>)
 
